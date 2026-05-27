@@ -24,8 +24,8 @@ linkme = { version = "0.3.31", optional = true }
 # Optional dependencies
 defmt = { version = "1", optional = true }
 log = { version = "0.4.20", optional = true }
-embassy-executor-09 = { package = "embassy-executor", git = "https://github.com/embassy-rs/embassy.git", rev = "2a83c59138043fa58326197779d0bef9b934a9ce", optional = true, default-features = false }
-embassy-executor-010 = { package = "embassy-executor", git = "https://github.com/embassy-rs/embassy.git", rev = "2a83c59138043fa58326197779d0bef9b934a9ce", optional = true, default-features = false }
+embassy-executor-09 = { package = "embassy-executor", git = "https://github.com/embassy-rs/embassy.git", rev = "1d3c3dec8edbf37450d0174b312f8d3d6cc0bf12", optional = true, default-features = false }
+embassy-executor-010 = { package = "embassy-executor", git = "https://github.com/embassy-rs/embassy.git", rev = "1d3c3dec8edbf37450d0174b312f8d3d6cc0bf12", optional = true, default-features = false }
 
 [features]
 default = ["semihosting", "panic-handler"]
@@ -95,4 +95,3 @@ ariel-os = [
 # Internal features
 _embassy = [] # internal feature: any embassy version selected
 _ariel = []   # internal feature: any ariel-os version selected
-
