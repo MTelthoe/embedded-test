@@ -162,7 +162,7 @@ dependencies = [
 [[package]]
 name = "embassy-executor"
 version = "0.10.0"
-source = "git+https://github.com/embassy-rs/embassy.git?rev=1d3c3dec8edbf37450d0174b312f8d3d6cc0bf12#1d3c3dec8edbf37450d0174b312f8d3d6cc0bf12"
+source = "git+https://github.com/embassy-rs/embassy.git?rev=5ccb04c583a5e1c048c76cc07b315267e34154e3#5ccb04c583a5e1c048c76cc07b315267e34154e3"
 dependencies = [
  "cordyceps",
  "critical-section",
@@ -174,7 +174,7 @@ dependencies = [
 [[package]]
 name = "embassy-executor-macros"
 version = "0.8.0"
-source = "git+https://github.com/embassy-rs/embassy.git?rev=1d3c3dec8edbf37450d0174b312f8d3d6cc0bf12#1d3c3dec8edbf37450d0174b312f8d3d6cc0bf12"
+source = "git+https://github.com/embassy-rs/embassy.git?rev=5ccb04c583a5e1c048c76cc07b315267e34154e3#5ccb04c583a5e1c048c76cc07b315267e34154e3"
 dependencies = [
  "darling 0.20.11",
  "proc-macro2",
@@ -185,7 +185,7 @@ dependencies = [
 [[package]]
 name = "embassy-executor-timer-queue"
 version = "0.1.0"
-source = "git+https://github.com/embassy-rs/embassy.git?rev=1d3c3dec8edbf37450d0174b312f8d3d6cc0bf12#1d3c3dec8edbf37450d0174b312f8d3d6cc0bf12"
+source = "git+https://github.com/embassy-rs/embassy.git?rev=5ccb04c583a5e1c048c76cc07b315267e34154e3#5ccb04c583a5e1c048c76cc07b315267e34154e3"
 
 [[package]]
 name = "embedded-test"

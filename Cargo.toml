@@ -24,8 +24,8 @@ linkme = { version = "0.3.31", optional = true }
 # Optional dependencies
 defmt = { version = "1", optional = true }
 log = { version = "0.4.20", optional = true }
-embassy-executor-09 = { package = "embassy-executor", git = "https://github.com/embassy-rs/embassy.git", rev = "1d3c3dec8edbf37450d0174b312f8d3d6cc0bf12", optional = true, default-features = false }
-embassy-executor-010 = { package = "embassy-executor", git = "https://github.com/embassy-rs/embassy.git", rev = "1d3c3dec8edbf37450d0174b312f8d3d6cc0bf12", optional = true, default-features = false }
+embassy-executor-09 = { package = "embassy-executor", git = "https://github.com/embassy-rs/embassy.git", rev = "5ccb04c583a5e1c048c76cc07b315267e34154e3", optional = true, default-features = false }
+embassy-executor-010 = { package = "embassy-executor", git = "https://github.com/embassy-rs/embassy.git", rev = "5ccb04c583a5e1c048c76cc07b315267e34154e3", optional = true, default-features = false }
 
 [features]
 default = ["semihosting", "panic-handler"]
